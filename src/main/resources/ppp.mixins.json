@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.port.ppp.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ParrotMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
