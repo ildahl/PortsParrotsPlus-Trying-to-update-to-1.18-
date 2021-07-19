@@ -16,5 +16,5 @@ public interface ParrotFeedCallback {
                 return ActionResult.PASS;
             });
 
-    ActionResult interact(PlayerEntity player, ParrotEntity sheep);
+    ActionResult interact(PlayerEntity player, ParrotEntity parrot);
 }

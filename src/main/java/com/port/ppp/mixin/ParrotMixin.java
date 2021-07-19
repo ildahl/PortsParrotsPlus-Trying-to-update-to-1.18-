@@ -22,7 +22,7 @@ public abstract class ParrotMixin {
 				if (itemInHand.toString().substring(itemInHand.toString().length() - 5).equalsIgnoreCase("seeds")) {
 					ActionResult result = ParrotFeedCallback.EVENT.invoker().interact(player, (ParrotEntity) (Object) this);
 					if (result == ActionResult.CONSUME) {
-						if (!player.isCreative()) itemInHand.setCount(itemInHand.getCount() - 1);
+						if (!player.isCreative()) itemInHand.decrement(1);
 						cir.cancel();
 					}
 				}

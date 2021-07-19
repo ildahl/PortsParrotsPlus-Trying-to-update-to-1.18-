@@ -4,7 +4,10 @@
   "package": "com.port.ppp.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "ParrotMixin"
+    "BlockMixin",
+    "LivingEntityAccessor",
+    "ParrotMixin",
+    "PlayerMixin"
   ],
   "client": [
   ],
