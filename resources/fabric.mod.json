@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ppp",
+  "version": "${version}",
+
+  "name": "Port's Parrots Plus",
+  "description": "So you don't feed with seed? You just be tame with that shit... That's barbaric as shit!",
+  "authors": [
+    "Port"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/ports-parrots-plus",
+    "sources": "https://github.com/jaspersn/PortsParrotsPlus"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ppp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.port.ppp.Main"
+    ]
+  },
+  "mixins": [
+    "ppp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.port.ppp.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BlockMixin",
+    "LivingEntityAccessor",
+    "ParrotMixin",
+    "PlayerEntityInvoker",
+    "PlayerEntityMixin",
+    "TameableShoulderEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
